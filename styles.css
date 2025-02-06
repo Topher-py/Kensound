@@ -10,7 +10,9 @@
     background-position: center;
     background-size: cover;
     object-fit: cover;
-    height: 109vh;
+    min-height: 109vh;
+    background-attachment: fixed;
+    
 }
 .navbar{
     width: 1200px;
@@ -90,7 +92,7 @@ ul li a:hover{
 .heading{
     font-size: 1.5rem;  /* Increases font size */
     font-weight: bold;  /* Makes text bold */
-    text-align: center; /* Centers the heading */
+    text-align: left; /* Centers the heading */
     color: navajowhite;  /* Sets text color */
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Adds shadow for depth */
     font-family: 'Arial', sans-serif; /* Custom font */
@@ -116,4 +118,29 @@ ul li a:hover{
 }
 em{
     font-weight: bolder;
+    color: rgb(233, 159, 49);
+}
+.birthday{
+    float: right; /* Positions image to the right */
+    width: 200px; /* Set image width */
+    height: auto;
+    margin-right: 20px; /* Adds space between image and text */
+    border-radius: 10px; 
+    border-radius: 10%;
+}
+.heading1{
+    font-size: 1.5rem;  /* Increases font size */
+    font-weight: bold;  /* Makes text bold */
+    text-align: center; /* Centers the heading */
+    color: navajowhite;  /* Sets text color */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Adds shadow for depth */
+    font-family: 'Arial', sans-serif; /* Custom font */
+    margin-top: 20px; /* Adds spacing from the top */
+    padding: 10px;
+    margin-right: 150px;
+}
+h2{
+    color: whitesmoke;
+    font-size: 20px;
+    line-height: 1.5;
 }
