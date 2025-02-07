@@ -83,6 +83,7 @@ ul li a:hover{
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    object-fit: cover;
 }
 .search .button{
     display: flex;
