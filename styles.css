@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url(images/specimen1.jpg), url(images/2nd.jpeg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Makes the background seamless */
+}
+
 .main{
     width: 100%;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(images/specimen1.jpg);
@@ -11,7 +18,8 @@
     background-size: cover;
     object-fit: cover;
     min-height: 109vh;
-    background-attachment: fixed;
+    font-family: 'Times New Roman', Times, serif;
+
     
 }
 .navbar{
@@ -95,9 +103,9 @@ ul li a:hover{
 }
 .heading{
     font-size: 1.5rem;  /* Increases font size */
-    font-weight: bold;  /* Makes text bold */
+    font-weight: 800;  /* Makes text bold */
     text-align: left; /* Centers the heading */
-    color: navajowhite;  /* Sets text color */
+    color: rgb(247, 179, 78);  /* Sets text color */
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Adds shadow for depth */
     font-family: 'Arial', sans-serif; /* Custom font */
     margin-top: 20px; /* Adds spacing from the top */
@@ -115,9 +123,9 @@ ul li a:hover{
     border-radius: 10px; 
     border-radius: 10%;
 }
-.text{
+.text, p{
     color: whitesmoke;
-    font-size: 18px;
+    font-size: 21px;
     line-height: 1.5;
 }
 em{
@@ -134,9 +142,9 @@ em{
 }
 .heading1{
     font-size: 1.5rem;  /* Increases font size */
-    font-weight: bold;  /* Makes text bold */
+    font-weight: 800;  /* Makes text bold */
     text-align: center; /* Centers the heading */
-    color: navajowhite;  /* Sets text color */
+    color: rgb(247, 179, 78);  /* Sets text color */
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Adds shadow for depth */
     font-family: 'Arial', sans-serif; /* Custom font */
     margin-top: 20px; /* Adds spacing from the top */
@@ -144,8 +152,8 @@ em{
     margin-right: 150px;
 }
 h2{
-    color: whitesmoke;
-    font-size: 20px;
+    color: rgb(226, 230, 17);
+    font-size: 25px;
     line-height: 1.5;
 }
 .pa{
@@ -155,9 +163,6 @@ h2{
     margin-right: 20px; /* Adds space between image and text */
     border-radius: 10px; 
     border-radius: 10%;
-}
-*{
-    font-weight: 550;
 }
 
 .button {
@@ -178,4 +183,56 @@ h2{
 
 .button:hover {
     background: orange;
+}
+.decor{
+    float: left;
+}
+.decor{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    
+}
+
+img {
+    transition: transform 0.3s ease-in-out;
+    display: block;
+}
+
+img:hover {
+    transform: scale(1.1); /* Enlarges the image on hover */
+}
+.events{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(images/2nd.jpeg.jpg);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    min-height: 109vh;
+    margin: 0;
+    padding: 0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.book-button {
+    background-color: #ff6600; /* Orange color */
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    float: center;
+}
+
+.book-button:hover {
+    background-color: #cc5500; /* Darker orange */
+}
+.pa1{
+    float: right; /* Positions image to the right */
+    width: 200px; /* Set image width */
+    height: auto;
+    margin-right: 20px; /* Adds space between image and text */
+    border-radius: 10px; 
+    border-radius: 10%;
+    
 }
